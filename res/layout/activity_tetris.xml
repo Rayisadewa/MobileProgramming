@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:padding="16dp">
+
+    <!-- Title Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#333333"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Warehouse Management System"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:fontFamily="sans-serif-medium" />
+
+        <ImageView
+            android:id="@+id/ivSettings"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="Settings Icon"
+            android:layout_gravity="end"
+            app:tint="@color/white" />
+    </LinearLayout>
+
+    <!-- Dashboard Section -->
+    <ScrollView
+        android:id="@+id/scrollViewDashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Inventory Overview -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Inventory Overview"
+                android:textColor="#333333"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Item 1: Boxes -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="12dp"
+                    android:background="#ffffff"
+                    android:layout_margin="8dp"
+                    android:elevation="4dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Boxes"
+                        android:textColor="#666666"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="120"
+                        android:textColor="#333333"
+                        android:textSize="18sp"
+                        android:fontFamily="sans-serif-medium" />
+                </LinearLayout>
+
+                <!-- Item 2: Pallets -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="12dp"
+                    android:background="#ffffff"
+                    android:layout_margin="8dp"
+                    android:elevation="4dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pallets"
+                        android:textColor="#666666"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="75"
+                        android:textColor="#333333"
+                        android:textSize="18sp"
+                        android:fontFamily="sans-serif-medium" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Order Management -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order Management"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#333333"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Pending Orders -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="12dp"
+                    android:background="#ffffff"
+                    android:layout_margin="8dp"
+                    android:elevation="4dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pending Orders"
+                        android:textColor="#666666"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="24"
+                        android:textColor="#333333"
+                        android:textSize="18sp"
+                        android:fontFamily="sans-serif-medium" />
+                </LinearLayout>
+
+                <!-- Completed Orders -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="12dp"
+                    android:background="#ffffff"
+                    android:layout_margin="8dp"
+                    android:elevation="4dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Completed Orders"
+                        android:textColor="#666666"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="67"
+                        android:textColor="#333333"
+                        android:textSize="18sp"
+                        android:fontFamily="sans-serif-medium" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Navigation Bar (Bottom) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="#333333"
+        android:padding="12dp">
+
+        <Button
+            android:id="@+id/btnInventory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Inventory"
+            android:textSize="12sp"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnOrders"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Orders"
+            android:textSize="12sp"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</RelativeLayout>

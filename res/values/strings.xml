@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">rayisadewa</string>
+    <string name="title_activity_scrolling">Pahlawan Revolusi</string>
+    <string name="large_text">
+        "TAN MALAKA
+        Keluarga dan masa kecil
+
+Rumah kelahiran Tan Malaka
+Nama lengkap Tan Malaka adalah Ibrahim Gelar Datuk Sutan Malaka.[b] Nama aslinya adalah Ibrahim, tetapi ia dikenal baik sebagai seorang anak dan orang dewasa sebagai Tan Malaka, sebuah nama kehormatan dan semi-bangsawan, ia mewarisi dari latar belakang bangsawan ibunya.[7] Ia lahir di Nagari Pandam Gadang, Kabupaten Lima Puluh Kota, Sumatera Barat, yang saat itu berada di bawah kekuasaan Hindia Belanda.[6] Tanggal lahirnya tidak jelas, dan bervariasi dari sumber ke sumber, tetapi kemungkinan antara tahun 1894 dan 1897.[c]
+
+Ayahnya adalah HM. Rasad Caniago, seorang buruh tani, dan ibunya, Rangkayo Sinah Simabur, putri seorang tokoh terpandang di desa tersebut. Sebagai seorang anak, Tan Malaka tinggal bersama orang tuanya di Suliki, dan belajar ilmu agama dan dilatih dalam seni bela diri pencak silat.[11] Pada tahun 1908, Tan Malaka bersekolah di Kweekschool, sekolah guru negeri, di Fort de Kock.[12] Di Kweekschool, Tan Malaka belajar bahasa Belanda dan menjadi pemain sepak bola yang terampil.[11][13] Menurut gurunya, G. H. Horensma, meskipun Tan terkadang tidak patuh, dia adalah murid yang sangat baik.[11] Ia lulus pada tahun 1913, dan kembali ke desanya. Kepulangannya akan ditandai dengan penganugerahan gelar adat yang tinggi sebagai datuk dan tawaran tunangan. Namun, dia hanya menerima gelar.[13] Dia berhasil mendapatkan uang dari desa untuk melanjutkan pendidikannya ke luar negeri, dan dia berlayar ke Rotterdam pada tahun yang sama
+        Setelah proklamasi kemerdekaan Indonesia, ia mulai bertemu dengan bangsanya sendiri dan generasi muda. Dia juga mulai menggunakan nama aslinya lagi, setelah 20 tahun menggunakan nama alias. Dia kemudian melakukan perjalanan ke Jawa dan melihat orang-orang kota Surabaya berperang melawan Tentara India Inggris pada bulan November. Ia menyadari perbedaan perjuangan antara rakyat di beberapa tempat dengan para pemimpin di Jakarta. Ia menilai para pemimpin terlalu lemah dalam bernegosiasi dengan Belanda.[50] Solusinya terhadap keterputusan yang dirasakan ini adalah dengan mendirikan Persatuan Perjuangan (Front Perjuangan, atau Aksi Bersatu), sebuah koalisi yang terdiri dari sekitar 140 kelompok yang lebih kecil, terutama tidak termasuk PKI. Setelah beberapa bulan berdiskusi, koalisi tersebut resmi dibentuk dalam sebuah kongres di Surakarta pada pertengahan Januari 1946.[52]
+
+Koalisi mengadopsi "Program Minimum", yang menyatakan bahwa hanya kemerdekaan penuh yang dapat diterima, bahwa pemerintah harus mematuhi keinginan rakyat, dan bahwa perkebunan dan industri milik asing harus dinasionalisasi.[52] Persatuan Perjuangan memiliki dukungan rakyat yang luas, serta dukungan dalam tentara republik. Dengan Mayor Jenderal Sudirman menjadi pendukung kuat koalisi yang diorganisir Tan Malaka. Pada bulan Februari 1946, organisasi tersebut memaksa pengunduran diri sementara Perdana Menteri Sutan Sjahrir, seorang pendukung negosiasi dengan Belanda, dan Sukarno berkonsultasi dengan Tan Malaka untuk mencari dukungannya.[53][54] Namun, Tan Malaka tampaknya tidak mampu menjembatani perpecahan politik dalam koalisinya untuk mengubahnya menjadi kontrol politik yang sebenarnya, dan dia ditangkap tak lama kemudian,[55] dengan Sjahrir kembali memimpin kabinet Sukarno
+
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
